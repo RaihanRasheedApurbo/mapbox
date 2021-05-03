@@ -1,5 +1,5 @@
 <resources>
-<!--    <string name="app_name">Mapbox</string>-->
+    <!--    <string name="app_name">Mapbox</string>-->
     <string name="app_name">Navigation map</string>
     <string name="access_token" translatable="false">pk.eyJ1IjoicmFpaGFucmFzaGVlZGFwdXJibyIsImEiOiJja25pYXYyZ3EwNW9pMnVtZ3lzZ2V2dWU1In0.jVxDj-iq57u_-F-SoafbdA</string>
     <string name="user_location_permission_explanation">This app needs location permissions to show its functionality.</string>

@@ -3,6 +3,7 @@ package com.example.mapbox;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import android.graphics.BitmapFactory;
@@ -41,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Intent homeintent = new Intent(MainActivity.this, Waiting.class);
+        startActivity(homeintent);
 
         Mapbox.getInstance(this, getString(R.string.mapbox_access_token));
 
